@@ -44,7 +44,7 @@ app = FastAPI(
 # ✅ This model works with HF Inference API
 API_URL = "https://api-inference.huggingface.co/models/bigscience/bloom-560m"
 headers = {
-    "Authorization": "Bearer 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"  # ← Replace with your real token
+    "Authorization": "Bearer your_token"  # ← Replace with your real token
 }
 
 class Prompt(BaseModel):
